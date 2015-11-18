@@ -30,15 +30,18 @@
  <body>
 
  
- 	<div id="greenc"></div>
+ 	<h1>Asycronus Javascript And XML</h1>
  	
 
  	<script>
- 	$("div").click(function(){
+ 		
+ 		$.get("test.html", function(data) {
 
- 		alert("div Clicked!");
+ 			alert(data);
 
- 	});
+
+ 		})
+
 
  	</script>
 
